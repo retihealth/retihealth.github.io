@@ -1,8 +1,9 @@
 import Team from "./views/Team.vue";
+import Home from "./views/Home.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
-  { path: "/", component: import("./views/Home.vue") },
+  { path: "/", component: Home },
   { path: "/team", component: Team },
 ];
 
