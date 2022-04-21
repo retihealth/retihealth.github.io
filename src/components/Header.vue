@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="navbar">
+  <div class="absolute navbar">
     <div class="flex-1">
       <router-link to="/">
         <a class="btn btn-ghost normal-case text-xl">Reti Health</a>
@@ -40,7 +40,7 @@
         </li>
       </ul>
       <div class="navbar-end">
-        <a class="btn">Contact</a>
+        <a class="btn btn-primary">Contact</a>
       </div>
     </div>
   </div>
