@@ -22,7 +22,7 @@ jobs:
       - name: Build project
         run: npm run build
       - name: Add .nojekyll file
-        run: touch ./out/.nojekyll
+        run: touch ./dist/.nojekyll
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
